@@ -134,9 +134,12 @@ popd &> /dev/null
 
 pinfo "Installing alidock under $VENV_DEST"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 pinfo "qui"
 >>>>>>> Use `-m venv` and drop Python 2
+=======
+>>>>>>> Remove stale printout
 source "$VENV_DEST/bin/activate"
 
 swallow pip install --upgrade "${URL[@]}" || restore_quit
